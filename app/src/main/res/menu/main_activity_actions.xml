@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/show_logo"
+        android:icon="@drawable/logo"
+        app:showAsAction="always"
+        android:title="logo" />
+
+    <item
+        android:id="@+id/show_activity_title"
+        android:checkable="false"
+        android:title="OCTranspo"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/show_version_number"
+        android:checkable="false"
+        android:title="1.0"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/show_authors_name"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="Nadege"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/help_icon"
+        android:icon="@drawable/help"
+        android:title="help"
+        app:showAsAction="always" />
+
+
+</menu>
